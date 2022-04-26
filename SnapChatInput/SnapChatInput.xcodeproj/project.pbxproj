@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84196C02280ED41300883CDB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84196C01280ED41300883CDB /* Colors.swift */; };
+		84196C04280EDAEE00883CDB /* Button+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84196C03280EDAEE00883CDB /* Button+Style.swift */; };
+		84196C07280EE2BD00883CDB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84196C06280EE2BD00883CDB /* LoginView.swift */; };
+		8422E6E9280FD70C00F1AD00 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422E6E8280FD70C00F1AD00 /* Checkbox.swift */; };
+		8422E6EB280FDBA100F1AD00 /* ForgotPasswordPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422E6EA280FDBA100F1AD00 /* ForgotPasswordPopUp.swift */; };
+		8422E6ED280FEECA00F1AD00 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422E6EC280FEECA00F1AD00 /* Navigation.swift */; };
+		8422E6F0280FF12000F1AD00 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422E6EF280FF12000F1AD00 /* LoginViewModel.swift */; };
+		842A0FB52811388300E29E47 /* Text+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FB42811388300E29E47 /* Text+Style.swift */; };
+		842A0FB92811538B00E29E47 /* AuthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FB82811538B00E29E47 /* AuthContentView.swift */; };
+		842A0FBB2811629300E29E47 /* SignUpNameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FBA2811629300E29E47 /* SignUpNameInputView.swift */; };
+		842A0FBF281162CD00E29E47 /* SignupViewInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FBE281162CD00E29E47 /* SignupViewInfoModel.swift */; };
+		842A0FC1281177DC00E29E47 /* SignupDOBInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC0281177DC00E29E47 /* SignupDOBInputView.swift */; };
+		842A0FC328117E0500E29E47 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC228117E0500E29E47 /* DateFormat.swift */; };
+		842A0FC5281181F500E29E47 /* SignupUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC4281181F500E29E47 /* SignupUsernameView.swift */; };
+		842B4C06280EE9F600B06671 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B4C05280EE9F600B06671 /* TextFields.swift */; };
+		845122DC280ECE4E0008ACDD /* SnapChatInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845122DB280ECE4E0008ACDD /* SnapChatInputApp.swift */; };
+		845122DE280ECE4E0008ACDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845122DD280ECE4E0008ACDD /* ContentView.swift */; };
+		845122E0280ECE500008ACDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845122DF280ECE500008ACDD /* Assets.xcassets */; };
+		845122E3280ECE500008ACDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845122E2280ECE500008ACDD /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84196C01280ED41300883CDB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		84196C03280EDAEE00883CDB /* Button+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Style.swift"; sourceTree = "<group>"; };
+		84196C06280EE2BD00883CDB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8422E6E8280FD70C00F1AD00 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		8422E6EA280FDBA100F1AD00 /* ForgotPasswordPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPopUp.swift; sourceTree = "<group>"; };
+		8422E6EC280FEECA00F1AD00 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		8422E6EF280FF12000F1AD00 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		842A0FB42811388300E29E47 /* Text+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Style.swift"; sourceTree = "<group>"; };
+		842A0FB82811538B00E29E47 /* AuthContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContentView.swift; sourceTree = "<group>"; };
+		842A0FBA2811629300E29E47 /* SignUpNameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpNameInputView.swift; sourceTree = "<group>"; };
+		842A0FBE281162CD00E29E47 /* SignupViewInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewInfoModel.swift; sourceTree = "<group>"; };
+		842A0FC0281177DC00E29E47 /* SignupDOBInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupDOBInputView.swift; sourceTree = "<group>"; };
+		842A0FC228117E0500E29E47 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		842A0FC4281181F500E29E47 /* SignupUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupUsernameView.swift; sourceTree = "<group>"; };
+		842B4C05280EE9F600B06671 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		845122D8280ECE4E0008ACDD /* SnapChatInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845122DB280ECE4E0008ACDD /* SnapChatInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatInputApp.swift; sourceTree = "<group>"; };
+		845122DD280ECE4E0008ACDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		845122DF280ECE500008ACDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845122E2280ECE500008ACDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845122D5280ECE4E0008ACDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8422E6EE280FF10B00F1AD00 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8422E6EA280FDBA100F1AD00 /* ForgotPasswordPopUp.swift */,
+				84196C06280EE2BD00883CDB /* LoginView.swift */,
+				8422E6EF280FF12000F1AD00 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		842A0FB62811535C00E29E47 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				842A0FB72811537000E29E47 /* Signup */,
+				8422E6EE280FF10B00F1AD00 /* Login */,
+				842A0FB82811538B00E29E47 /* AuthContentView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		842A0FB72811537000E29E47 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				842A0FBE281162CD00E29E47 /* SignupViewInfoModel.swift */,
+				842A0FBD281162A800E29E47 /* Screens */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		842A0FBD281162A800E29E47 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				842A0FBA2811629300E29E47 /* SignUpNameInputView.swift */,
+				842A0FC0281177DC00E29E47 /* SignupDOBInputView.swift */,
+				842A0FC4281181F500E29E47 /* SignupUsernameView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		845122CF280ECE4E0008ACDD = {
+			isa = PBXGroup;
+			children = (
+				845122DA280ECE4E0008ACDD /* SnapChatInput */,
+				845122D9280ECE4E0008ACDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845122D9280ECE4E0008ACDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845122D8280ECE4E0008ACDD /* SnapChatInput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845122DA280ECE4E0008ACDD /* SnapChatInput */ = {
+			isa = PBXGroup;
+			children = (
+				845122EE280ECF130008ACDD /* Application */,
+				845122ED280ECF040008ACDD /* Utils */,
+				845122EC280ECEFD0008ACDD /* Features */,
+				845122EB280ECEDE0008ACDD /* View+Ext */,
+				845122EA280ECED70008ACDD /* Extensions */,
+				845122E9280ECECE0008ACDD /* Resources */,
+				845122E1280ECE500008ACDD /* Preview Content */,
+			);
+			path = SnapChatInput;
+			sourceTree = "<group>";
+		};
+		845122E1280ECE500008ACDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				845122E2280ECE500008ACDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		845122E9280ECECE0008ACDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				845122DF280ECE500008ACDD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		845122EA280ECED70008ACDD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				842A0FC228117E0500E29E47 /* DateFormat.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		845122EB280ECEDE0008ACDD /* View+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				84196C01280ED41300883CDB /* Colors.swift */,
+				84196C03280EDAEE00883CDB /* Button+Style.swift */,
+				842B4C05280EE9F600B06671 /* TextFields.swift */,
+				8422E6E8280FD70C00F1AD00 /* Checkbox.swift */,
+				8422E6EC280FEECA00F1AD00 /* Navigation.swift */,
+				842A0FB42811388300E29E47 /* Text+Style.swift */,
+			);
+			path = "View+Ext";
+			sourceTree = "<group>";
+		};
+		845122EC280ECEFD0008ACDD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				845122EF280ECF200008ACDD /* LaunchScreen */,
+				842A0FB62811535C00E29E47 /* Auth */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		845122ED280ECF040008ACDD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		845122EE280ECF130008ACDD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				845122DB280ECE4E0008ACDD /* SnapChatInputApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		845122EF280ECF200008ACDD /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				845122DD280ECE4E0008ACDD /* ContentView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845122D7280ECE4E0008ACDD /* SnapChatInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845122E6280ECE500008ACDD /* Build configuration list for PBXNativeTarget "SnapChatInput" */;
+			buildPhases = (
+				845122D4280ECE4E0008ACDD /* Sources */,
+				845122D5280ECE4E0008ACDD /* Frameworks */,
+				845122D6280ECE4E0008ACDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapChatInput;
+			productName = SnapChatInput;
+			productReference = 845122D8280ECE4E0008ACDD /* SnapChatInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845122D0280ECE4E0008ACDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					845122D7280ECE4E0008ACDD = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 845122D3280ECE4E0008ACDD /* Build configuration list for PBXProject "SnapChatInput" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845122CF280ECE4E0008ACDD;
+			productRefGroup = 845122D9280ECE4E0008ACDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845122D7280ECE4E0008ACDD /* SnapChatInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845122D6280ECE4E0008ACDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845122E3280ECE500008ACDD /* Preview Assets.xcassets in Resources */,
+				845122E0280ECE500008ACDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845122D4280ECE4E0008ACDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842A0FB92811538B00E29E47 /* AuthContentView.swift in Sources */,
+				845122DE280ECE4E0008ACDD /* ContentView.swift in Sources */,
+				842A0FC328117E0500E29E47 /* DateFormat.swift in Sources */,
+				84196C04280EDAEE00883CDB /* Button+Style.swift in Sources */,
+				842A0FB52811388300E29E47 /* Text+Style.swift in Sources */,
+				84196C07280EE2BD00883CDB /* LoginView.swift in Sources */,
+				84196C02280ED41300883CDB /* Colors.swift in Sources */,
+				8422E6EB280FDBA100F1AD00 /* ForgotPasswordPopUp.swift in Sources */,
+				8422E6E9280FD70C00F1AD00 /* Checkbox.swift in Sources */,
+				842A0FBF281162CD00E29E47 /* SignupViewInfoModel.swift in Sources */,
+				8422E6ED280FEECA00F1AD00 /* Navigation.swift in Sources */,
+				845122DC280ECE4E0008ACDD /* SnapChatInputApp.swift in Sources */,
+				842A0FC5281181F500E29E47 /* SignupUsernameView.swift in Sources */,
+				842A0FBB2811629300E29E47 /* SignUpNameInputView.swift in Sources */,
+				8422E6F0280FF12000F1AD00 /* LoginViewModel.swift in Sources */,
+				842B4C06280EE9F600B06671 /* TextFields.swift in Sources */,
+				842A0FC1281177DC00E29E47 /* SignupDOBInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		845122E4280ECE500008ACDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845122E5280ECE500008ACDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845122E7280ECE500008ACDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapChatInput/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.SnapChatInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845122E8280ECE500008ACDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapChatInput/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.travel.SnapChatInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845122D3280ECE4E0008ACDD /* Build configuration list for PBXProject "SnapChatInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845122E4280ECE500008ACDD /* Debug */,
+				845122E5280ECE500008ACDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845122E6280ECE500008ACDD /* Build configuration list for PBXNativeTarget "SnapChatInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845122E7280ECE500008ACDD /* Debug */,
+				845122E8280ECE500008ACDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845122D0280ECE4E0008ACDD /* Project object */;
+}
