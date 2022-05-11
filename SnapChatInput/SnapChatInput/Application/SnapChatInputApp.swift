@@ -11,7 +11,8 @@ import SwiftUI
 struct SnapChatInputApp: App {
     var body: some Scene {
         WindowGroup {
-            SignupUsernameView().environmentObject(SignupViewInfoModel())
+            ContentView()
+         //   AppTabBarView()
         }
     }
 }

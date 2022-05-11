@@ -31,7 +31,7 @@ struct AuthContentView<Content>: View where Content: View {
                 
                 views.padding(.top, 10)
                 
-            }.padding(.horizontal, 50)
+            }.padding(.horizontal, UIScreen.main.bounds.width * 0.15)
         }
         .navigationBarHidden(false)
     }

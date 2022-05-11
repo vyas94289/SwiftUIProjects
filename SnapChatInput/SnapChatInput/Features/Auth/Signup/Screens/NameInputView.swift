@@ -1,5 +1,5 @@
 //
-//  SignUpNameInputView.swift
+//  NameInputView.swift
 //  SnapChatInput
 //
 //  Created by Gaurang on 21/04/22.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct SignUpNameInputView: View {
-    @StateObject var viewModel = SignupViewInfoModel()
+struct NameInputView: View {
+    @EnvironmentObject var viewModel: SignupViewInfoModel
     @FocusState private var focus: FocusableField?
     @State private var pushToBirthDate: Bool = false
     
     var body: some View {
         AuthContentView(title: "What's your name?") {
             
-            NavigationLink(destination: SignupDOBInputView().environmentObject(viewModel), isActive: $pushToBirthDate) {
+            NavigationLink(destination: DOBInputView(), isActive: $pushToBirthDate) {
                 EmptyView()
                 }.hidden()
             
@@ -58,15 +58,15 @@ struct SignUpNameInputView: View {
     }
 }
 
-extension SignUpNameInputView {
+extension NameInputView {
     enum FocusableField: Hashable {
       case firstName
       case lastName
     }
 }
 
-struct SignUpNameInputView_Previews: PreviewProvider {
+struct NameInputView_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpNameInputView()
+        NameInputView()
     }
 }

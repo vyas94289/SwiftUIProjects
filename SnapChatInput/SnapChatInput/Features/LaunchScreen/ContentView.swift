@@ -24,13 +24,13 @@ struct ContentView: View {
                 .buttonStyle(FlatButtonStyle(color: .themeRed))
                 
                 NavigationLink("SIGN UP") {
-                    SignUpNameInputView()
+                    NameInputView()
                 }
                 .buttonStyle(FlatButtonStyle(color:.themeBlue))
             }
             .foregroundColor(.white)
             .navigationBarHidden(true)
-        }
+        }.environmentObject(SignupViewInfoModel())
     }
     
     private func loginTapped() {

@@ -27,11 +27,12 @@ extension Text {
     func authTitleStyle() -> some View {
         self.foregroundColor(.themeBlack)
             .fontWeight(.semibold)
+            .multilineTextAlignment(.center)
     }
     
     func authSubheadLineStyle() -> some View {
         self.foregroundColor(.themeGray)
-            .font(.caption)
+            .font(.footnote)
             .multilineTextAlignment(.center)
     }
 }

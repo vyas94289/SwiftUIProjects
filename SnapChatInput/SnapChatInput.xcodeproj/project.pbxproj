@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84196C02280ED41300883CDB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84196C01280ED41300883CDB /* Colors.swift */; };
 		84196C04280EDAEE00883CDB /* Button+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84196C03280EDAEE00883CDB /* Button+Style.swift */; };
 		84196C07280EE2BD00883CDB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84196C06280EE2BD00883CDB /* LoginView.swift */; };
 		8422E6E9280FD70C00F1AD00 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422E6E8280FD70C00F1AD00 /* Checkbox.swift */; };
@@ -16,20 +15,29 @@
 		8422E6F0280FF12000F1AD00 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422E6EF280FF12000F1AD00 /* LoginViewModel.swift */; };
 		842A0FB52811388300E29E47 /* Text+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FB42811388300E29E47 /* Text+Style.swift */; };
 		842A0FB92811538B00E29E47 /* AuthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FB82811538B00E29E47 /* AuthContentView.swift */; };
-		842A0FBB2811629300E29E47 /* SignUpNameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FBA2811629300E29E47 /* SignUpNameInputView.swift */; };
+		842A0FBB2811629300E29E47 /* NameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FBA2811629300E29E47 /* NameInputView.swift */; };
 		842A0FBF281162CD00E29E47 /* SignupViewInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FBE281162CD00E29E47 /* SignupViewInfoModel.swift */; };
-		842A0FC1281177DC00E29E47 /* SignupDOBInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC0281177DC00E29E47 /* SignupDOBInputView.swift */; };
+		842A0FC1281177DC00E29E47 /* DOBInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC0281177DC00E29E47 /* DOBInputView.swift */; };
 		842A0FC328117E0500E29E47 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC228117E0500E29E47 /* DateFormat.swift */; };
-		842A0FC5281181F500E29E47 /* SignupUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC4281181F500E29E47 /* SignupUsernameView.swift */; };
+		842A0FC5281181F500E29E47 /* UsernameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A0FC4281181F500E29E47 /* UsernameInputView.swift */; };
 		842B4C06280EE9F600B06671 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B4C05280EE9F600B06671 /* TextFields.swift */; };
 		845122DC280ECE4E0008ACDD /* SnapChatInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845122DB280ECE4E0008ACDD /* SnapChatInputApp.swift */; };
 		845122DE280ECE4E0008ACDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845122DD280ECE4E0008ACDD /* ContentView.swift */; };
 		845122E0280ECE500008ACDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845122DF280ECE500008ACDD /* Assets.xcassets */; };
 		845122E3280ECE500008ACDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845122E2280ECE500008ACDD /* Preview Assets.xcassets */; };
+		8489DA4F282009DA00856C41 /* OTPInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489DA4E282009DA00856C41 /* OTPInputView.swift */; };
+		849878B9282BB00B0035C959 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849878B8282BB00B0035C959 /* Colors.swift */; };
+		84CA3FF4281C131800DF9E14 /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA3FF3281C131800DF9E14 /* PasswordInputView.swift */; };
+		84EA7082281FAFF200AA76F8 /* PasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA7081281FAFF200AA76F8 /* PasswordValidation.swift */; };
+		84EA7084281FD3A100AA76F8 /* MobileInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA7083281FD3A100AA76F8 /* MobileInputView.swift */; };
+		84EA7087281FD80400AA76F8 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA7086281FD80400AA76F8 /* CountryPickerView.swift */; };
+		84EA708B281FE09D00AA76F8 /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA708A281FE09D00AA76F8 /* CountryInfo.swift */; };
+		84EA708C281FEEB400AA76F8 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 84EA7088281FD99A00AA76F8 /* Countries.json */; };
+		84F4CC17282A534900E52A43 /* OTPField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4CC16282A534900E52A43 /* OTPField.swift */; };
+		84F4CC19282A541D00E52A43 /* AccountSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4CC18282A541D00E52A43 /* AccountSettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84196C01280ED41300883CDB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		84196C03280EDAEE00883CDB /* Button+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Style.swift"; sourceTree = "<group>"; };
 		84196C06280EE2BD00883CDB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8422E6E8280FD70C00F1AD00 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
@@ -38,17 +46,28 @@
 		8422E6EF280FF12000F1AD00 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		842A0FB42811388300E29E47 /* Text+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Style.swift"; sourceTree = "<group>"; };
 		842A0FB82811538B00E29E47 /* AuthContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContentView.swift; sourceTree = "<group>"; };
-		842A0FBA2811629300E29E47 /* SignUpNameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpNameInputView.swift; sourceTree = "<group>"; };
+		842A0FBA2811629300E29E47 /* NameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInputView.swift; sourceTree = "<group>"; };
 		842A0FBE281162CD00E29E47 /* SignupViewInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewInfoModel.swift; sourceTree = "<group>"; };
-		842A0FC0281177DC00E29E47 /* SignupDOBInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupDOBInputView.swift; sourceTree = "<group>"; };
+		842A0FC0281177DC00E29E47 /* DOBInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOBInputView.swift; sourceTree = "<group>"; };
 		842A0FC228117E0500E29E47 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
-		842A0FC4281181F500E29E47 /* SignupUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupUsernameView.swift; sourceTree = "<group>"; };
+		842A0FC4281181F500E29E47 /* UsernameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameInputView.swift; sourceTree = "<group>"; };
 		842B4C05280EE9F600B06671 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 		845122D8280ECE4E0008ACDD /* SnapChatInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChatInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845122DB280ECE4E0008ACDD /* SnapChatInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapChatInputApp.swift; sourceTree = "<group>"; };
 		845122DD280ECE4E0008ACDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		845122DF280ECE500008ACDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845122E2280ECE500008ACDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8489DA4E282009DA00856C41 /* OTPInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPInputView.swift; sourceTree = "<group>"; };
+		849878B8282BB00B0035C959 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = ../../../FitnessApp/FitnessApp/Extensions/Colors.swift; sourceTree = "<group>"; };
+		84CA3FF3281C131800DF9E14 /* PasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
+		84EA7080281FA0F400AA76F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EA7081281FAFF200AA76F8 /* PasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidation.swift; sourceTree = "<group>"; };
+		84EA7083281FD3A100AA76F8 /* MobileInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileInputView.swift; sourceTree = "<group>"; };
+		84EA7086281FD80400AA76F8 /* CountryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
+		84EA7088281FD99A00AA76F8 /* Countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		84EA708A281FE09D00AA76F8 /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
+		84F4CC16282A534900E52A43 /* OTPField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPField.swift; sourceTree = "<group>"; };
+		84F4CC18282A541D00E52A43 /* AccountSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				842A0FBE281162CD00E29E47 /* SignupViewInfoModel.swift */,
+				84EA7081281FAFF200AA76F8 /* PasswordValidation.swift */,
 				842A0FBD281162A800E29E47 /* Screens */,
 			);
 			path = Signup;
@@ -94,9 +114,13 @@
 		842A0FBD281162A800E29E47 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				842A0FBA2811629300E29E47 /* SignUpNameInputView.swift */,
-				842A0FC0281177DC00E29E47 /* SignupDOBInputView.swift */,
-				842A0FC4281181F500E29E47 /* SignupUsernameView.swift */,
+				842A0FBA2811629300E29E47 /* NameInputView.swift */,
+				842A0FC0281177DC00E29E47 /* DOBInputView.swift */,
+				842A0FC4281181F500E29E47 /* UsernameInputView.swift */,
+				84CA3FF3281C131800DF9E14 /* PasswordInputView.swift */,
+				84EA7083281FD3A100AA76F8 /* MobileInputView.swift */,
+				8489DA4E282009DA00856C41 /* OTPInputView.swift */,
+				84F4CC18282A541D00E52A43 /* AccountSettingView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -121,7 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				845122EE280ECF130008ACDD /* Application */,
+				84EA7089281FD9C300AA76F8 /* Models */,
 				845122ED280ECF040008ACDD /* Utils */,
+				84EA7085281FD7A400AA76F8 /* Views */,
 				845122EC280ECEFD0008ACDD /* Features */,
 				845122EB280ECEDE0008ACDD /* View+Ext */,
 				845122EA280ECED70008ACDD /* Extensions */,
@@ -143,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				845122DF280ECE500008ACDD /* Assets.xcassets */,
+				84EA7088281FD99A00AA76F8 /* Countries.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -158,7 +185,7 @@
 		845122EB280ECEDE0008ACDD /* View+Ext */ = {
 			isa = PBXGroup;
 			children = (
-				84196C01280ED41300883CDB /* Colors.swift */,
+				849878B8282BB00B0035C959 /* Colors.swift */,
 				84196C03280EDAEE00883CDB /* Button+Style.swift */,
 				842B4C05280EE9F600B06671 /* TextFields.swift */,
 				8422E6E8280FD70C00F1AD00 /* Checkbox.swift */,
@@ -187,6 +214,7 @@
 		845122EE280ECF130008ACDD /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				84EA7080281FA0F400AA76F8 /* Info.plist */,
 				845122DB280ECE4E0008ACDD /* SnapChatInputApp.swift */,
 			);
 			path = Application;
@@ -198,6 +226,23 @@
 				845122DD280ECE4E0008ACDD /* ContentView.swift */,
 			);
 			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		84EA7085281FD7A400AA76F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84EA7086281FD80400AA76F8 /* CountryPickerView.swift */,
+				84F4CC16282A534900E52A43 /* OTPField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84EA7089281FD9C300AA76F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84EA708A281FE09D00AA76F8 /* CountryInfo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845122E3280ECE500008ACDD /* Preview Assets.xcassets in Resources */,
+				84EA708C281FEEB400AA76F8 /* Countries.json in Resources */,
 				845122E0280ECE500008ACDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,21 +318,29 @@
 			files = (
 				842A0FB92811538B00E29E47 /* AuthContentView.swift in Sources */,
 				845122DE280ECE4E0008ACDD /* ContentView.swift in Sources */,
+				84EA708B281FE09D00AA76F8 /* CountryInfo.swift in Sources */,
 				842A0FC328117E0500E29E47 /* DateFormat.swift in Sources */,
 				84196C04280EDAEE00883CDB /* Button+Style.swift in Sources */,
+				84CA3FF4281C131800DF9E14 /* PasswordInputView.swift in Sources */,
 				842A0FB52811388300E29E47 /* Text+Style.swift in Sources */,
 				84196C07280EE2BD00883CDB /* LoginView.swift in Sources */,
-				84196C02280ED41300883CDB /* Colors.swift in Sources */,
 				8422E6EB280FDBA100F1AD00 /* ForgotPasswordPopUp.swift in Sources */,
 				8422E6E9280FD70C00F1AD00 /* Checkbox.swift in Sources */,
+				84F4CC19282A541D00E52A43 /* AccountSettingView.swift in Sources */,
 				842A0FBF281162CD00E29E47 /* SignupViewInfoModel.swift in Sources */,
 				8422E6ED280FEECA00F1AD00 /* Navigation.swift in Sources */,
 				845122DC280ECE4E0008ACDD /* SnapChatInputApp.swift in Sources */,
-				842A0FC5281181F500E29E47 /* SignupUsernameView.swift in Sources */,
-				842A0FBB2811629300E29E47 /* SignUpNameInputView.swift in Sources */,
+				842A0FC5281181F500E29E47 /* UsernameInputView.swift in Sources */,
+				84EA7087281FD80400AA76F8 /* CountryPickerView.swift in Sources */,
+				84F4CC17282A534900E52A43 /* OTPField.swift in Sources */,
+				842A0FBB2811629300E29E47 /* NameInputView.swift in Sources */,
+				84EA7084281FD3A100AA76F8 /* MobileInputView.swift in Sources */,
+				84EA7082281FAFF200AA76F8 /* PasswordValidation.swift in Sources */,
+				849878B9282BB00B0035C959 /* Colors.swift in Sources */,
+				8489DA4F282009DA00856C41 /* OTPInputView.swift in Sources */,
 				8422E6F0280FF12000F1AD00 /* LoginViewModel.swift in Sources */,
 				842B4C06280EE9F600B06671 /* TextFields.swift in Sources */,
-				842A0FC1281177DC00E29E47 /* SignupDOBInputView.swift in Sources */,
+				842A0FC1281177DC00E29E47 /* DOBInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +474,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SnapChatInput/application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -450,7 +504,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SnapChatInput/application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -10,8 +10,8 @@ import Foundation
 import SwiftUI
 
 class LoginViewModel: ObservableObject {
-    @Published var email: String = "asf"
-    @Published var password: String = "asf"
+    @Published var email: String = ""
+    @Published var password: String = ""
     @Published var passwordErrorMessage: String?
     @Published var saveInfo: Bool = true
     @Published var havingInvalidInputs = false

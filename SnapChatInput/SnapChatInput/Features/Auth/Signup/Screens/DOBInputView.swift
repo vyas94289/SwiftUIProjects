@@ -1,5 +1,5 @@
 //
-//  SignupDOBInputView.swift
+//  DOBInputView.swift
 //  SnapChatInput
 //
 //  Created by Gaurang on 21/04/22.
@@ -8,14 +8,14 @@
 import Foundation
 import SwiftUI
 
-struct SignupDOBInputView: View {
+struct DOBInputView: View {
     @EnvironmentObject var viewModel: SignupViewInfoModel
     @State private var pushToUsername: Bool = false
     
     var body: some View {
         AuthContentView(title: "When's your birthday?") {
             
-            NavigationLink(destination: SignupUsernameView().environmentObject(viewModel), isActive: $pushToUsername) {
+            NavigationLink(destination: UsernameInputView(), isActive: $pushToUsername) {
                 EmptyView()
                 }.hidden()
             

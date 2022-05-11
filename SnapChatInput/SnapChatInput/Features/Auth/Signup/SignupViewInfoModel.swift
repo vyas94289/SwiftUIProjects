@@ -12,19 +12,39 @@ import SwiftUI
 class SignupViewInfoModel: ObservableObject {
     @Published var firstName: String = ""
     @Published var lastName: String = ""
+    var fullName: String {
+        [firstName, lastName].filter({$0.isEmpty == false}).joined(separator: " ")
+    }
+    
     @Published var birthDateString: String = ""
     @Published var birthDate: Date = .now
     @Published var username: String = ""
     @Published var usernameStatus: UsernameValidation = .empty
-    
+    @Published var passwordModel = PasswordValidaton()
+    @Published var passwordErrorMessage: String?
     @Published var isValidName: Bool = false
+ 
+    @Published var countryInfo: CountryInfo
+    @Published var mobileNumber: String = ""
+    @Published var isMobileValid: Bool = false
+    var mobileWithCountryCode: String {
+        "\(countryInfo.dialCode)\(mobileNumber)"
+    }
+    
+    @Published var optString: String = ""
+    @Published var isValidOTPInputs: Bool = false
+    
     let privacyPolicy = "By tapping Sign Up & Accept, you acknowledge that you have read the [Privacy Policy](https://example.com) and agree to the [Terms of Service](www.google.com)."
     private var disposeBag = Set<AnyCancellable>()
     
     init() {
+        let list = CountryInfo.getCountriesFromBundle()
+        let locale = Locale.current
+        countryInfo = list.first(where: {$0.code == locale.regionCode}) ?? list[0]
         observeFullNameInputs()
         observeDOB()
         observeUsername()
+        observeMobileNumber()
     }
     
     private func observeFullNameInputs() {
@@ -48,7 +68,6 @@ class SignupViewInfoModel: ObservableObject {
             .debounce(for: .milliseconds(500), scheduler: RunLoop.main)
             .subscribe(on: RunLoop.main)
             .sink { value in
-                print(value)
                 if value.isEmpty {
                     self.usernameStatus = .empty
                 } else if value.first!.isLetter == false {
@@ -63,14 +82,22 @@ class SignupViewInfoModel: ObservableObject {
     
     private func checkUsernameAvailability(_ value: String) {
         self.usernameStatus = .checking
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            let availableName = ["vyas", "grng", "tej", "patel" ]
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [value] in
+            guard value == self.username else {
+                print("cancelled:", value)
+                return
+            }
+            let availableName = ["vyas", "grng", "tej", "patel"]
             if availableName.contains(value) {
                 self.usernameStatus = .error(message: "\(value) is already taken!")
             } else {
                 self.usernameStatus = .available
             }
         }
+    }
+    
+    private func observeMobileNumber() {
+        $mobileNumber.map({$0.count > 5}).assign(to: &$isMobileValid)
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  SignupUsernameView.swift
+//  UsernameInputView.swift
 //  SnapChatInput
 //
 //  Created by Gaurang on 21/04/22.
@@ -8,20 +8,21 @@
 import Foundation
 import SwiftUI
 
-struct SignupUsernameView: View {
+struct UsernameInputView: View {
     @EnvironmentObject var viewModel: SignupViewInfoModel
-    @State private var pushToBirthDate: Bool = false
+    @State private var pushToPassword: Bool = false
     @FocusState private var focus: Bool?
     
     var body: some View {
         AuthContentView(title: "Pick a username", subheadLine: "Your username is how friends add you on Snapchat.") {
             
-            NavigationLink(destination: SignupDOBInputView().environmentObject(viewModel), isActive: $pushToBirthDate) {
+            NavigationLink(destination: PasswordInputView(), isActive: $pushToPassword) {
                 EmptyView()
                 }.hidden()
             
             ThemeTextField(title: "Username", value: $viewModel.username, errorMessage: .constant(nil))
                 .padding(.top, 20)
+                .textInputAutocapitalization(.never)
                 .focused($focus, equals: true)
                 .submitLabel(.next)
                 .onSubmit(submit)
@@ -54,6 +55,6 @@ struct SignupUsernameView: View {
         }.padding(.top, 100)
     }
     private func submit() {
-        self.pushToBirthDate = true
+        self.pushToPassword = true
     }
 }
