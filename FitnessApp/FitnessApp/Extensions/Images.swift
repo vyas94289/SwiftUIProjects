@@ -26,6 +26,20 @@ enum AppImage: String {
     case settings = "ic_settings"
     case team = "ic_team"
     case world = "ic_world"
+    case running = "ic_running"
+    case pushup = "ic_pushup"
+    case hiking = "ic_hiking"
+    case swim = "ic_swim"
+    case activityTracker = "Activity_tracker"
+    case addNotes = "Add_notes"
+    case camping  = "camping_noc8"
+    case collaboration = "Collaboration"
+    case highFive = "High_five"
+    case moments
+    case undrawEmpty = "undraw_empty"
+    case rightArrow = "ic_right_arrow"
+    case leftArrow = "ic_arrow_left"
+    case award = "ic_award"
 }
 
 extension Image {

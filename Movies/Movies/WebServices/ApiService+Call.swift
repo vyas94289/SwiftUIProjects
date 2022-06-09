@@ -9,7 +9,7 @@ import Combine
 
 extension ApiService {
 
-    static func fetchUpcomingMovies(page: Int) -> ApiPublisher<MoviesListModel> {
+    /*static func fetchUpcomingMovies(page: Int) -> ApiPublisher<MoviesListModel> {
         let requestModel = RequestModels.Upcoming(page: String(page))
         do {
             let request = try ApiService.generateGetRequest(for: .upcoming, with: requestModel.convertToDict())
@@ -17,5 +17,5 @@ extension ApiService {
         } catch {
             return ApiPublisher(error: error.eraseToApiError())
         }
-    }
+    }*/
 }

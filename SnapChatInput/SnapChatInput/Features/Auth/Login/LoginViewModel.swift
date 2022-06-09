@@ -26,7 +26,7 @@ class LoginViewModel: ObservableObject {
     private func observeInputs() {
         Publishers.CombineLatest($email, $password).sink(receiveValue: { (email, password) in
             let isInvalid = email.isEmpty || password.isEmpty
-            if self.havingInvalidInputs != isInvalid {
+            if self.`havingInvalidInputs` != isInvalid {
                 self.havingInvalidInputs = isInvalid
             }
             if self.passwordErrorMessage != nil {

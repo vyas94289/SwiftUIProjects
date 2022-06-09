@@ -1,0 +1,45 @@
+
+[
+    {
+        "id": 1,
+        "name": "Bora Bora island",
+        "region": "French Polynesia",
+        "information": "Shaped like a giant sombrero, this lush volcanic island stars in countless South Pacific fantasies. The focal point and best asset of this tropical beauty is its ravishing lagoon in technicolor turquoise. Fish, turtles, sharks, and rays swim in the clear waters, and tiny islets or motus dot the lagoon.\nThe island, of course, is distinctly French, with mouthwatering cuisine to match. Diving and snorkeling are excellent in the surrounding reefs, and hiking trails weave through the palm-studded forests.\nIf you can afford it, hide out here in a luxurious over-the-water bungalow and bask in your good fortune as you fall asleep to the gentle slosh of the sea.",
+        "image": "borabora"
+    },
+    {
+        "id": 2,
+        "name": "Palawan",
+        "region": "Philippines",
+        "information": "Palawan is the Philippines' answer to paradise. This island province stretches southwest to Borneo, with lush limestone peaks rising from a jewel-like sea so clear, that you can almost see the expressions on the fish from above the surface.\nSlivers of gleaming white-sand beaches fringed with rustling palms rim many of these jungle-clad islands, while under the water, coral reefs teem with an impressive diversity of tropical fish, offering some of the best diving in the world.\nOther attractions include the islands' unique wildlife, emerald lakes, and quaint fishing villages. Coron is home to plush resorts, and El Nido drips with natural beauty and is one of the most alluring islands in the chain. From here, you can island hop around the spectacular Bacuit archipelago.\nOne of Palawan's top attractions is the World Heritage-listed Puerto Princesa Subterranean River National Park, an impressive limestone cave system with a long underground river.",
+        "image": "palawan"
+    },
+    {
+        "id": 3,
+        "name": "The Cook Islands",
+        "region": "Aitutaki, The Cook Islands",
+        "information": "If you've ever dreamed of being a castaway in the South Pacific, the Cook Islands are for you. Strung between French Polynesia and Samoa but with strong ties to New Zealand, the archipelago's 15 islands are among the underrated jewels of the South Pacific.\nAmong the islands' top attractions are enticing aquamarine lagoons, palm-fringed beaches, and volcanic peaks. Best of all, the locals are among the friendliest in the South Pacific.\nRarotonga is the main tourist hub, with its many resorts, lush peaks, and plentiful beaches. Aitutaki is one of the most beautiful islands in the South Pacific. Hibiscus-laced villages snuggle on the hillsides, and 21 motus or small islets lie along its heavenly lagoon, many within kayak distance of the resorts.\nEnsconce yourself here in an over-the-water bungalow, or hole up in a rustic beach shack on a remote out island and live your Robinson Crusoe fantasies.",
+        "image": "cook"
+    },
+    {
+        "id": 4,
+        "name": "Bali",
+        "region": "Indonesia",
+        "information": "Bali's intoxicating culture is a feast for the senses. Incense wafts from Hindu temples, rice paddies glow in electric greens, and the food jolts the taste buds. Surfing, swimming, and sunbathing are popular activities at the island's beautiful beaches, and tourists will find so many other things to do on this exotic isle, from temple hopping and sightseeing in the lush countryside to spa treatments, shopping, and hiking.\nSoak up the spiritual side of Bali in Ubud, see Seminyak, and family-friendly Sanur, feel the pumping pulse of touristy Kuta, or explore the attractions on the neighboring volcanic island of Lombok.\nLooking for somewhere chic to stay? Choose from beautiful beach resorts, and if you're bringing the kids, you'll find plenty of good-value places to stay with the family.\nOne thing's for sure: Bali's enchanting spirit will wash over you like a warm, tropical wave.",
+        "image": "bali"
+    },
+    {
+        "id": 5,
+        "name": "Fiji",
+        "region": "Palm lined beach in Fiji",
+        "information": "One of Australia's go-to tropical escapes, Fiji ticks all the fantasy island boxes. White-sand beaches, translucent turquoise waters, and teeming coral reefs are all found here in abundance. And the Fijian people welcome visitors with warm, friendly smiles.\nDiving, snorkeling, fishing, and, in some areas, surfing are all popular things to do in Fiji, but sprawling under a palm tree and slipping into the silky warm seas can be equally rewarding. With more than 300 islands, it's easy to find the best island for your vacation, from luxurious celebrity hideaways and family-friendly resorts to the sublime Yasawa and Mamanuca group.\nFijians love young children, so this a fabulous destination for families looking to relax.",
+        "image": "fiji"
+    },
+    {
+        "id": 6,
+        "name": "Koh Samui, Thailand",
+        "region": "Ang Thong National Marine Park on Koh Samui",
+        "information": "Jungle-backed beaches, jewel-toned seas, and perfectly arching palms: Koh Samui is pure, tropical eye candy. Throw in kaleidoscopic coral reefs and the emerald peaks rising from the turquoise sea in the sublimely beautiful Ang Thong National Marine Park, and it’s hard not to fall in love with this tropical Thai paradise.\nKoh Samui’s sister islands, Koh Phangan and Koh Tao, are also worth a visit. In fact, day trips to these idyllic islands are one of the top things to do during a visit to Koh Samui. Other popular places to visit include the beautiful boulder-strewn Chaweng and Lamai beaches, the shops and food stalls of Fisherman’s Village, and majestic Buddhist temples.\nWondering where to stay in Koh Samui? Accommodation ranges from beachfront resorts to luxury villas and affordable hostels.",
+        "image": "kohsamui"
+    }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Chandler Hallow",
+    "occupation": "Chef",
+    "about": "I’m a Chef and I assist in prep work, such as chopping vegetables, but more often will be involved in cooking specialty dishes. Chooses ingredients and designs a menu based on the seasonal availability of food items. Creates unique dishes that inspire guests to come back again and again to see what is new in the restaurant.\nI’m a Chef and I assist in prep work, such as chopping vegetables, but more often will be involved in cooking specialty dishes. Chooses ingredients and designs a menu based on the seasonal availability of food items. Creates unique dishes that inspire guests to come back again and again to see what is new in the restaurant."
+  },
+    {
+    "id": 2,
+    "name": "Emma Linch",
+    "occupation": "Environment Expert",
+    "about": "Quisque bibendum eget mi et facilisis. Quisque fermentum nisl enim. Suspendisse fringilla tincidunt risus, eget vestibulum erat pellentesque at. Vivamus tincidunt suscipit lorem sed viverra. Vivamus id consectetur sapien. Integer quis tempor mi. Pellentesque rutrum orci ut eleifend facilisis. Morbi ac pulvinar dui. Morbi tempus tellus id risus tempor egestas. Etiam vel interdum ex, a bibendum ex. Sed consectetur vulputate sapien sit amet hendrerit."
+  },
+    {
+    "id": 3,
+    "name": "Mike Alen",
+    "occupation": "Farmer",
+    "about": "Nullam dictum enim est, sed mollis massa tempus sed. Maecenas mattis arcu nunc, nec malesuada sapien finibus at. Mauris mattis, tortor ut bibendum consequat, neque elit sodales orci, quis laoreet eros tellus eget leo. Duis sed velit id tellus fermentum rhoncus. Curabitur quis euismod turpis. Duis nec nisi vulputate, euismod mi et, lacinia elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus commodo pretium. Vivamus pharetra, diam id fermentum pharetra, odio nisi consequat diam, eget cursus tellus nisl ut lectus. Phasellus hendrerit interdum lacinia."
+  }
+]
